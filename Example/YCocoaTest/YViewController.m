@@ -7,6 +7,7 @@
 //
 
 #import "YViewController.h"
+#import <TestTool.h>
 
 @interface YViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    TestTool *test = [[TestTool alloc] init];
+    test.name = @"yang";
+    test.age = 23;
+    test.rs = true;
+    [test log];
 }
 
 - (void)didReceiveMemoryWarning
