@@ -1,0 +1,29 @@
+# YCocoaTest
+
+[![CI Status](https://img.shields.io/travis/guangjun_yang1990@163.com/YCocoaTest.svg?style=flat)](https://travis-ci.org/guangjun_yang1990@163.com/YCocoaTest)
+[![Version](https://img.shields.io/cocoapods/v/YCocoaTest.svg?style=flat)](https://cocoapods.org/pods/YCocoaTest)
+[![License](https://img.shields.io/cocoapods/l/YCocoaTest.svg?style=flat)](https://cocoapods.org/pods/YCocoaTest)
+[![Platform](https://img.shields.io/cocoapods/p/YCocoaTest.svg?style=flat)](https://cocoapods.org/pods/YCocoaTest)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+YCocoaTest is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'YCocoaTest'
+```
+
+## Author
+
+guangjun_yang1990@163.com, guangjun_yang1990@163.com
+
+## License
+
+YCocoaTest is available under the MIT license. See the LICENSE file for more info.
