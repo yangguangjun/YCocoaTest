@@ -8,6 +8,7 @@
 
 #import "YViewController.h"
 #import <TestTool.h>
+#import <AddTest.h>
 
 @interface YViewController ()
 
@@ -26,6 +27,10 @@
     test.age = 23;
     test.rs = true;
     [test log];
+    
+    AddTest *add = [[AddTest alloc] init];
+    add.arr = [NSMutableArray arrayWithObjects:@1, @2, @3, nil];
+    [add testCocoapod];
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AddTest.h"
 #import "TestTool.h"
 
 FOUNDATION_EXPORT double YCocoaTestVersionNumber;
